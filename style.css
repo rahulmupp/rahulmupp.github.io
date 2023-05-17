@@ -748,7 +748,7 @@ svg text:nth-child(1) {
   }
 }
 
-@media (max-width: 1068px) {
+@media (min-width: 768px) and (max-width: 1068px) {
   .hero h1 {
     font-size: 100px;
     bottom: -35px;
@@ -793,7 +793,7 @@ svg text:nth-child(1) {
   }
 }
 
-@media (max-width: 1300px) {
+@media (min-width: 1068) and (max-width: 1300px) {
   .description p:nth-child(1) {
     margin-bottom: 130px;
   }
